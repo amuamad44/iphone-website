@@ -1,0 +1,164 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-weight: lighter;
+}
+.continer{
+
+}
+.box1{
+height: 400px;
+width: 100%;
+display: flex;
+justify-content: center;
+gap: 10px;
+}
+.text{
+    height:  200px;
+    width: 40%;
+    margin-top: 100px;
+   
+}
+.btn1{
+    color: rgb(255, 255, 255);
+    background-color: blue;
+   padding: 4px;
+    padding-left: 25px;
+    padding-right: 25px;
+   border-radius: 4%;
+   position: relative;
+   top: 5%;
+}
+.phone{
+    height:  390px;
+    width: 15%;
+    background-image: url(iphone.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 50px;
+}
+.box2{
+    background-color: blue;
+    height: 300px;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+gap: 20px;
+background-size: cover;
+background-image: url(background\ mob.jpg);
+
+}
+.t1{
+    width: 20%;
+    height: 150px;
+    text-align: center;
+    color: aliceblue;
+    border: 1px solid rgb(50, 99, 123);
+    border-radius: 5%;
+    background: linear-gradient(
+        to left bottom,
+        rgb(76, 125, 138),
+        rgb(68, 68, 70)
+    );
+   box-shadow: 1ch;
+}
+.txt1{
+    color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.t2{
+    width: 20%;
+    height: 150px;
+    text-align: center;
+    color: aliceblue;
+    border: 1px solid black;
+    border: 1px solid rgb(50, 99, 123);
+    border-radius: 5%;
+    background: linear-gradient(
+        to left bottom,
+        rgb(24, 168, 203),
+        rgb(68, 68, 70)
+    );
+}
+.txt2{
+    color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.t3{
+    width: 20%;
+    height: 150px;
+    text-align: center;
+    color: aliceblue;
+    border: 1px solid black;
+    border: 1px solid rgb(50, 99, 123);
+    border-radius: 5%;
+    background: linear-gradient(
+        to left bottom,
+        rgb(76, 125, 138),
+        rgb(68, 68, 70)
+    );
+}
+.txt3{
+    color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box3{
+    text-align: center;
+    height: 200px;
+    width: 100%;
+    margin-top: 90px;
+    padding-right: 20px;
+    
+}
+.box4{
+height: 360px;
+width: 100%;
+background-image: url(background\ mob.jpg);
+background-size: cover;
+
+}
+.upper{
+    height: 130px;
+    color: white;
+    text-align: center;
+}
+.image{
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+}
+.img1{
+  
+    height: 150px;
+    width: 20%;
+    border: 2px dashed white;
+    text-align: center;
+   color: white;
+   padding-top: 50px;
+}
+.img2{
+
+    height: 150px;
+    width: 20%;
+    border: 2px dashed white;
+    color: white;
+    text-align: center;
+     padding-top: 50px;
+}
+.btn2{
+    color: rgb(255, 255, 255);
+    background-color: blue;
+    padding: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+   border-radius: 2%;
+}
+.lower{
+    height: 50px;
+ text-align: center;
+ margin-top: 20px;
+ color: white;
+}
